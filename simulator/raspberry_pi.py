@@ -1,7 +1,7 @@
 import time
 import json
 import paho.mqtt.client as mqtt
-from sensor_simulator_random_bounded import SensorDataSimulator
+from sensor_simulator import SensorDataSimulator
 
 MQTT_BROKER = "localhost"          # Or your MQTT broker IP
 MQTT_PORT = 1883
